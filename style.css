@@ -1,0 +1,582 @@
+/* =========================================
+   FATHIMATH BINSIYA K - RESUME WEBSITE
+   ========================================= */
+
+/* Basic Page */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    background-color: #f3f0e9;
+    color: #303832;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Main Page */
+
+.page {
+    width: 92%;
+    max-width: 1000px;
+    margin: 22px auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px #d2d0ca;
+}
+
+/* Header */
+
+.header {
+    background-color: #294a36;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 20px 14px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header p {
+    margin: 2px 0 0 0;
+    font-size: 10px;
+    color: #d7e0da;
+}
+
+/* Navigation */
+
+.navigation {
+    background-color: #193024;
+    text-align: center;
+    padding: 8px 5px;
+}
+
+.navigation a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6px 13px;
+    margin: 0 2px;
+}
+
+.navigation a:hover {
+    background-color: #31543f;
+}
+
+.navigation a.active {
+    background-color: #3d5d47;
+}
+
+/* Main */
+
+main {
+    padding: 25px 35px 20px 35px;
+}
+
+/* Home Grid */
+
+.home-grid {
+    display: table;
+    width: 100%;
+    border-spacing: 15px;
+    margin-left: -15px;
+}
+
+.home-grid .card {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.welcome-card {
+    width: 52%;
+}
+
+.snapshot-card {
+    width: 48%;
+}
+
+/* Cards */
+
+.card {
+    padding: 18px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #d6d4cf;
+}
+
+.welcome-card {
+    background-color: #ffffff;
+}
+
+.snapshot-card {
+    background-color: #294a36;
+    color: #ffffff;
+}
+
+.card h2,
+.content-section h2,
+.highlight-section h2,
+.contact-intro h2,
+.social-section h2,
+.validator-section h2 {
+    margin-top: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #d8d8d2;
+    font-size: 16px;
+}
+
+.welcome-card h2 {
+    color: #294a36;
+}
+
+.snapshot-card h2 {
+    color: #ffffff;
+    border-bottom-color: #58715f;
+}
+
+/* Snapshot */
+
+.snapshot-row {
+    display: table;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #4b6654;
+}
+
+.snapshot-row span,
+.snapshot-row strong {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.snapshot-row span {
+    width: 38%;
+    color: #aebdb2;
+    font-size: 10px;
+}
+
+.snapshot-row strong {
+    width: 62%;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+/* General Sections */
+
+.content-section {
+    margin-bottom: 30px;
+}
+
+.content-section h2,
+.highlight-section h2,
+.contact-intro h2,
+.social-section h2,
+.validator-section h2 {
+    color: #294a36;
+    border-bottom-color: #d7d7d0;
+}
+
+.highlight-section {
+    margin: 15px 0 10px 0;
+    padding: 20px;
+    background-color: #f6f4ef;
+    border-left: 4px solid #294a36;
+}
+
+.highlight-section p {
+    margin-bottom: 0;
+}
+
+/* Education */
+
+.education-item {
+    margin-bottom: 15px;
+    padding: 15px 18px;
+    background-color: #f6f5f1;
+    border-left: 4px solid #294a36;
+}
+
+.education-item h3 {
+    margin: 0 0 5px 0;
+    color: #294a36;
+    font-size: 14px;
+}
+
+.education-item p {
+    margin: 2px 0;
+}
+
+.education-item .score {
+    font-weight: bold;
+    color: #3d5d47;
+}
+
+/* Skills Grid */
+
+.skills-grid {
+    display: table;
+    width: 100%;
+    border-spacing: 10px;
+    margin-left: -10px;
+}
+
+.skill-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 43%;
+    min-height: 120px;
+    margin: 7px 1%;
+    padding: 15px;
+    background-color: #f6f5f1;
+    border-top: 3px solid #294a36;
+}
+
+.skill-card h3 {
+    margin: 0 0 10px 0;
+    color: #294a36;
+    font-size: 13px;
+}
+
+.skill-card p {
+    display: inline-block;
+    margin: 3px 4px 3px 0;
+    padding: 4px 8px;
+    background-color: #e2e8e2;
+    color: #294a36;
+    font-size: 10px;
+}
+
+/* Soft Skills */
+
+.soft-skills {
+    text-align: left;
+}
+
+.soft-skills span {
+    display: inline-block;
+    margin: 5px;
+    padding: 7px 13px;
+    background-color: #294a36;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+/* Projects */
+
+.project {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f6f5f1;
+    border-left: 4px solid #294a36;
+}
+
+.project-number {
+    display: table-cell;
+    width: 70px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 22px;
+    color: #294a36;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-content {
+    display: table-cell;
+    padding: 18px 20px;
+}
+
+.project-content h3 {
+    margin: 0 0 7px 0;
+    color: #294a36;
+    font-size: 16px;
+}
+
+.project-content ul {
+    padding-left: 20px;
+}
+
+.project-content li {
+    margin-bottom: 7px;
+}
+
+.technology {
+    margin-top: 12px;
+}
+
+.technology span {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 4px 8px;
+    background-color: #294a36;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+/* Activity */
+
+.activity-card {
+    padding: 18px;
+    background-color: #f6f5f1;
+    border-left: 4px solid #294a36;
+}
+
+.activity-card h3 {
+    margin-top: 0;
+    color: #294a36;
+}
+
+/* Certifications */
+
+.certificate {
+    display: table;
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 15px 0;
+    background-color: #f6f5f1;
+    border-left: 4px solid #294a36;
+}
+
+.certificate-icon {
+    display: table-cell;
+    width: 65px;
+    text-align: center;
+    vertical-align: middle;
+    color: #294a36;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.certificate > div:last-child {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+.certificate h3 {
+    margin: 0 0 5px 0;
+    color: #294a36;
+    font-size: 14px;
+}
+
+.certificate p {
+    margin: 0 0 8px 0;
+}
+
+.certificate-label {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #294a36;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+/* Interests */
+
+.interest-grid {
+    text-align: center;
+}
+
+.interest-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 26%;
+    margin: 1%;
+    padding: 15px;
+    min-height: 100px;
+    background-color: #f6f5f1;
+    border-top: 3px solid #294a36;
+}
+
+.interest-card h3 {
+    color: #294a36;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+/* Contact */
+
+.contact-intro {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-grid {
+    text-align: center;
+}
+
+.contact-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 38%;
+    margin: 10px;
+    padding: 20px;
+    min-height: 110px;
+    background-color: #f6f5f1;
+    border-top: 4px solid #294a36;
+}
+
+.contact-icon {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 8px auto;
+    line-height: 35px;
+    background-color: #294a36;
+    color: #ffffff;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.contact-card h3 {
+    margin: 5px 0;
+    color: #294a36;
+}
+
+.contact-card p {
+    margin: 0;
+}
+
+.contact-card a,
+.social-section a {
+    color: #294a36;
+    text-decoration: none;
+}
+
+.contact-card a:hover,
+.social-section a:hover {
+    text-decoration: underline;
+}
+
+/* Social Section */
+
+.social-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f6f5f1;
+}
+
+.social-section p {
+    margin: 8px 0;
+}
+
+/* Validator */
+
+.validator-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f6f5f1;
+}
+
+.validator-section img {
+    border: 0;
+}
+
+/* Footer */
+
+footer {
+    padding: 8px;
+    background-color: #f0eee8;
+    border-top: 1px solid #e1dfd8;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #777777;
+    font-size: 9px;
+}
+
+/* Links */
+
+a {
+    color: inherit;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 700px) {
+
+    .page {
+        width: 100%;
+        margin: 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 2px 20px;
+    }
+
+    .home-grid {
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+
+    .home-grid .card {
+        display: block;
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .skill-card {
+        display: block;
+        width: auto;
+        margin: 10px 0;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .project-number {
+        display: block;
+        width: auto;
+        padding: 12px 0 0 0;
+    }
+
+    .project-content {
+        display: block;
+    }
+
+    .interest-card {
+        display: block;
+        width: auto;
+        margin: 10px 0;
+    }
+
+    .contact-card {
+        display: block;
+        width: auto;
+        margin: 10px 0;
+    }
+
+    .certificate {
+        display: block;
+        padding: 15px;
+    }
+
+    .certificate-icon {
+        display: block;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .certificate > div:last-child {
+        display: block;
+    }
+}
